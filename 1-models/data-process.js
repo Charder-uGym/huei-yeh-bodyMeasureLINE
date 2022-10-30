@@ -1,6 +1,7 @@
 var isAndroid = kendo.support.mobileOS.android;
 
-var apiSite = (useLocalAPIs)?'http://localhost:5000':'https://huei-yeh-body-composition.herokuapp.com/';
+var apiSite = (useLocalAPIs)?'http://localhost:5000':'https://huei-yeh.makerkang.com/';
+//var apiSite = (useLocalAPIs)?'http://localhost:5000':'https://huei-yeh-body-composition.herokuapp.com/';
 
 var measurementSource = new kendo.data.DataSource({
   transport: {
